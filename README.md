@@ -2,9 +2,27 @@
 
 A responsive, modern landing page template for showcasing popular anime series, trailers, and character profiles. This project is built with plain HTML, CSS, and JavaScript and is intended as a portfolio/demonstration site or starting point for themed landing pages.
 
+[![Deploy to GitHub Pages](https://github.com/razesoni/Anime-Landing-Page/actions/workflows/deploy_pages.yml/badge.svg)](https://github.com/razesoni/Anime-Landing-Page/actions/workflows/deploy_pages.yml)
+
 ## Project Description
 
 Anime Landing Page is a single-page, visually rich website that highlights featured anime titles using a dynamic slider, embedded trailer modals, and interactive character showcases. It's optimized for performance and responsiveness across desktop, tablet, and mobile devices, using CSS techniques such as glassmorphism, blurred backgrounds, and smooth transitions to create a cinematic feel.
+
+## Screenshots
+
+Desktop preview:
+
+![Desktop preview](docs/screenshots/desktop.svg)
+
+Mobile preview:
+
+![Mobile preview](docs/screenshots/mobile.svg)
+
+Trailer modal preview:
+
+![Trailer modal preview](docs/screenshots/trailer.svg)
+
+> Live demo (after first successful deployment): https://razesoni.github.io/Anime-Landing-Page/
 
 ## Features
 
@@ -55,6 +73,15 @@ python -m http.server 8000
 
 Notes:
 - Ensure the media folders (`img`, `video`, etc.) are present and populated so images and trailers load correctly.
+
+## GitHub Pages
+
+I created a GitHub Actions workflow to publish the site to GitHub Pages automatically on push to `main`.
+
+- Workflow: `.github/workflows/deploy_pages.yml`
+- Deployment target (expected): https://razesoni.github.io/Anime-Landing-Page/
+
+After the first push to `main` the Pages site will deploy; check the Actions page for the `Deploy to GitHub Pages` run. If the repository's default branch is not `main`, update the workflow triggers or let me know and I'll adjust it.
 
 ## Customization
 
